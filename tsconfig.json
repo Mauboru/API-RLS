@@ -8,12 +8,12 @@
     "esModuleInterop": true,
     "baseUrl": "./src",
     "paths": {
-      "@models/*": [
-        "src/models/*"
-      ]
+      "@models/*": ["src/models/*"],
+      "@controllers/*": ["src/controllers/*"]
     },
+
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true                           
   }
 }

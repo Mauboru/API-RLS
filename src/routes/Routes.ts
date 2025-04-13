@@ -1,6 +1,8 @@
 import { Router } from "express";
-import cors from "cors";
+import authRoutes from "./authRoutes";
 
 const router = Router();
 
-export default router;
+router.use("/auth", authRoutes);
+
+export default router;  
